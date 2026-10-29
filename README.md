@@ -199,10 +199,8 @@ Install Python and Git. VS Code is recommended.
 
 ### Step 1: Clone the Repository
 
-Replace `YOUR-USERNAME` with your GitHub username.
-
 ```bash
-git clone https://github.com/YOUR-USERNAME/Customer-Churn-Prediction.git
+git clone https://github.com/ganeshadatala/Customer-Churn-Prediction.git
 ```
 
 ### Step 2: Open the Project Directory
@@ -251,53 +249,11 @@ python src/predict.py
 streamlit run app.py
 ```
 
-Open the local URL displayed in the terminal to access the application.
-
-**Important:** Make sure the dataset exists at the path expected by the Python scripts. If the trained model is not included in the repository, train the model before launching the application.
-
-## 10. Screenshots and Visualizations
-
-Add screenshots from your actual project to demonstrate the analysis and application.
-
-### A. Customer Churn Analysis
-
-Add a screenshot of your EDA charts here.
-
-Example filename:
-
-`output/churn_analysis.png`
-
 ```markdown
 ![Customer Churn Analysis](output/churn_analysis.png)
 ```
 
-### B. Model Evaluation
-
-Add a screenshot showing your actual model evaluation results.
-
-Example filename:
-
-`output/model_evaluation.png`
-
-```markdown
-![Model Evaluation](output/model_evaluation.png)
-```
-
-### C. Streamlit Application
-
-Add a screenshot of the running prediction application.
-
-Example filename:
-
-`output/streamlit_app.png`
-
-```markdown
-![Streamlit Application](output/streamlit_app.png)
-```
-
-*Replace these example filenames with your actual screenshot paths. Do not add screenshots that do not exist.*
-
-## 11. Conclusion and Future Improvements
+## 8. Conclusion and Future Improvements
 
 ### Conclusion
 
